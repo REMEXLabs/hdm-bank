@@ -30,7 +30,7 @@ angular
       'LANG' : 'Language',
       // Error
       'ERROR': 'Error',
-      'NAN' : 'Please enter a correct money ammount e.g. 99,50',
+      'NAN' : 'Please enter a correct money amount e.g. 99,50',
       'MUCH' : 'Not enough money in account',
       // home
       'HOME_WELCOME': 'Welcome to the HdM Bank Services',
@@ -38,22 +38,22 @@ angular
       'HOME_PAUSED_NONE': "You don't have any paused transactions",
       'HOME_PAUSED_EXIST': "You have {{pausedTrans}} paused transactions",
       // account
-      'ACCOUNT_ACTION' : 'Your current Balance',
+      'ACCOUNT_ACTION' : 'Your current balance',
       'BALANCE' : 'Balance',
       'BALANCE_DESC' : 'Here you will be able to see your current account balance',
       // transfer
       'TRANSFER_ACTION' : 'Transfer',
       'TRANSFER_HEADER' : 'Transfering Money',
-      'TRANSFER_DESC' : 'Doing a transfer involves giving part of you money to other person',
+      'TRANSFER_DESC' : 'Doing a transfer involves giving part of your money to another person',
       'START_TRANSFER_BUTTON' : 'Start new trasfer',
       'TRANSFER_CANCEL' : 'Cancel - Stop Transaction',
-      'TRANSFER_CANCEL_MSG' : 'Are you sure, you want to stop this transaction?',
+      'TRANSFER_CANCEL_MSG' : 'Are you sure that you want to stop this transaction?',
       'TRANSFER_CANCEL_MSG1' : 'Stop Transfer',
       'TRANSFER_CANCEL_MSG2' : 'Continue Transfer',
       'TRANSFER_NEXT' : 'Continue to next step &rarr;',
       'TRANSFER_BACK' : 'Back to previous step',
       'TRANSFER_PAUSED' : 'The transaction has been saved for later',
-      'TRANSFER_CANCELED' : 'You just canceled the money transfer',
+      'TRANSFER_CANCELED' : 'You have just canceled the money transfer',
       // transfer 1
       'TRANSFER1_ACTION' : 'Transfer : First Step',
       'TRANSFER1_HEADER' : 'For whom is the money?',
@@ -84,9 +84,9 @@ angular
       'TRANSFER4_NEXT' : 'Transfer money',
       //transfer 5
       'TRANSFER5_ACTION' : 'Transfer : Success',
-      'TRANSFER5_HEADER' : 'The information bellow is important',
+      'TRANSFER5_HEADER' : 'The information below is important',
       'TRANSFER5_DESC' : 'You have sent the money to the other person',
-      'TRANSFER5_MSG1' : 'Your Transfer was completed : {{recipient}} {{amount | currency:"EUR"}}',
+      'TRANSFER5_MSG1' : 'Your transfer was completed : {{recipient}} {{amount | currency:"EUR"}}',
       'TRANSFER5_MSG2' : 'You have so much money left : {{left | currency:"EUR"}}',
       'TRANSFER5_ACTION1' : 'Go to Account',
       'TRANSFER5_ACTIONSEL' : 'Keep conformation',
