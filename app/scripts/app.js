@@ -30,7 +30,7 @@ angular
       'LANG' : 'Language',
       // Error
       'ERROR': 'Error',
-      'NAN' : 'Please enter a correct money amount e.g. 99,50',
+      'NAN' : 'Please enter a correct amount, e.g. 99,50',
       'MUCH' : 'Not enough money in account',
       // home
       'HOME_WELCOME': 'Welcome to the HdM Bank Services',
@@ -41,11 +41,16 @@ angular
       'ACCOUNT_ACTION' : 'Your current balance',
       'BALANCE' : 'Balance',
       'BALANCE_DESC' : 'Here you will be able to see your current account balance',
+      // standing order / Dauerauftrag 
+      'STANDORDER_ACTION': 'Standing Order',
+      'STANDORDER_HEADER': 'Create a new standing order',
+      'STANDORDER_DESC': 'A standing order is a way of telling your bank that is should transfer some money (always the same amount) to a specific person or organisation on a regular basis (for example, every month).',
+      'STANDORDER_BUTTON_START': 'Start creating a standing order',
       // transfer
       'TRANSFER_ACTION' : 'Transfer',
       'TRANSFER_HEADER' : 'Transferring Money',
-      'TRANSFER_DESC' : 'Makiing a transfer means that you give part of your money to another person',
-      'START_TRANSFER_BUTTON' : 'Start new trasfer',
+      'TRANSFER_DESC' : 'Making a transfer means that you give part of your money to another person',
+      'START_TRANSFER_BUTTON' : 'Start new transfer',
       'TRANSFER_CANCEL' : 'Cancel - Stop Transaction',
       'TRANSFER_CANCEL_MSG' : 'Are you sure that you want to stop this transaction?',
       'TRANSFER_CANCEL_MSG1' : 'Stop Transfer',
@@ -67,8 +72,8 @@ angular
       // transfer 3
       'TRANSFER3_ACTION' : 'Transfer : Third Step',
       'TRANSFER3_HEADER' : 'Review',
-      'TRANSFER3_DESC' : 'Check that every items is correct',
-      'TRANSFER3_QUES' : 'Is that correct?',
+      'TRANSFER3_DESC' : 'Check that every item is correct',
+      'TRANSFER3_QUES' : 'Is this correct?',
       'TRANSFER3_REP' : 'You want to transfer money to {{recipient}}',
       'TRANSFER3_AMO' : '{{recipient}} will recieve {{amount | currency:"EUR"}}',
       'TRANSFER3_PAUSE' : 'Hold transfer </br> Print  a copy for verification',
@@ -78,8 +83,8 @@ angular
       // transfer 4
       'TRANSFER4_ACTION' : 'Transfer : Fourth Step',
       'TRANSFER4_HEADER' : 'Security Code',
-      'TRANSFER4_DESC' : 'Type your security TAN; the bank has sent a PIN Code to your phone',
-      'TRANSFER4_MSG' : 'The bank has send a TAN Code to your phone.',
+      'TRANSFER4_DESC' : 'Type your security TAN. The bank has sent a PIN code to your phone.',
+      'TRANSFER4_MSG' : 'The bank has sent a TAN code to your phone.',
       'TRANSFER4_INPUT' : 'Type your TAN',
       'TRANSFER4_NEXT' : 'Transfer money',
       //transfer 5
@@ -87,7 +92,7 @@ angular
       'TRANSFER5_HEADER' : 'The information below is important',
       'TRANSFER5_DESC' : 'You have sent the money to the other person',
       'TRANSFER5_MSG1' : 'Your transfer was completed : {{recipient}} {{amount | currency:"EUR"}}',
-      'TRANSFER5_MSG2' : 'You have so much money left : {{left | currency:"EUR"}}',
+      'TRANSFER5_MSG2' : 'You have  {{left | currency:"EUR"}} left in your account.',
       'TRANSFER5_ACTION1' : 'Go to Account',
       'TRANSFER5_ACTIONSEL' : 'Keep confirmation',
       'TRANSFER5_ACTIONSEL1' : 'Download to computer',
@@ -114,15 +119,20 @@ angular
       'HOME_WELCOME': 'Willkommen',
       'HOME_PAUSED': 'Überweisungen zur Überprüfung',
       'HOME_PAUSED_NONE': "Sie haben zurzeit keine Überweisungen zur Überprüfung",
-      'HOME_PAUSED_EXIST': "Sie haben {{pausedTrans}} zur Überweisungen zur Überprüfung",
+      'HOME_PAUSED_EXIST': "Sie haben {{pausedTrans}} Überweisungen zur Überprüfung",
       // account
       'ACCOUNT_ACTION' : 'Kontostand',
       'BALANCE' : 'Kontostand',
       'BALANCE_DESC' : 'Hier erfahren Sie wie viel Geld Sie in ihrem Konto haben.',
+      // standing order / Dauerauftrag 
+      'STANDORDER_ACTION': 'Dauerauftrag',
+      'STANDORDER_HEADER': 'Einen neuen Dauerauftrag machen',
+      'STANDORDER_DESC': 'Sie können einen Dauerauftrag einrichten, wenn Sie wollen, dass die Bank zum Beispiel jeden Monat immer den gleichen Betrag an eine bestimmte Person oder Firma bezahlt.',
+      'STANDORDER_BUTTON_START': 'Jetzt einen neuen Dauerauftrag machen',
       // transfer
       'TRANSFER_ACTION' : 'Überweisung',
       'TRANSFER_HEADER' : 'Überweisung durchführen',
-      'TRANSFER_DESC' : 'Bei einer Überweisung geben Sie einer anderen Person einen Teil von Ihrem Geld',
+      'TRANSFER_DESC' : 'Bei einer Überweisung geben Sie einer anderen Person einen Teil von Ihrem Geld.',
       'START_TRANSFER_BUTTON' : 'Zur Überweisung',
       'TRANSFER_CANCEL' : 'Abbrechen : Geld behalten',
       'TRANSFER_CANCEL_MSG' : 'Sind sie sicher?',
@@ -167,7 +177,7 @@ angular
       'TRANSFER5_MSG1' : 'Die Überweisung wurde ausgeführt, Sie haben an {{recipient}} {{amount | currency:"EUR"}} überwiesen',
       'TRANSFER5_MSG2' : 'Sie haben jetzt noch {{left | currency:"EUR"}} auf Ihrem Konto.',
       'TRANSFER5_ACTION1' : 'Zum Kontostand',
-      'TRANSFER5_ACTIONSEL' : 'Bestätigung speicher',
+      'TRANSFER5_ACTIONSEL' : 'Bestätigung speichern',
       'TRANSFER5_ACTIONSEL1' : 'Bestätigung herunterladen',
       'TRANSFER5_ACTIONSEL2' : 'Als Anhang per E-Mail schicken',
       'TRANSFER5_ACTIONSEL3' : 'Bestätigung ausdrucken'
